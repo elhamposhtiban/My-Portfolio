@@ -4,6 +4,15 @@
     font-family: 'Lora', serif;}
 
 .box {
-    background-color: rgb(110, 196, 167);
 
+    background-color: rgb(96, 148, 131);
+}
+
+#navbar{
+
+   width: 100%;
+   height: 70px;
+   background-color: rgb(91, 151, 153)
+
+ }
 
