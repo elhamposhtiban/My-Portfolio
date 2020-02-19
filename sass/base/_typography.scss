@@ -19,7 +19,7 @@ body {
         font-weight: 400;
         letter-spacing:2rem;
         animation-name: moveInLeft;
-        animation-duration: 2s;
+        animation-duration: .7s;
         animation-timing-function: ease-out;
         margin-bottom: 2rem;
         /* animation-delay: 2s; */
@@ -31,7 +31,7 @@ body {
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 1.3rem;
-        animation: moveInRight 2s ease-out;
+        animation: moveInRight .7s ease-out;
         margin-bottom: 6rem;
     }
 }
