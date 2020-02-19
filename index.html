@@ -2,105 +2,98 @@
 <html>
     <head>
         <metacharset=utf-8> 
-           <!--likns-->
+           <!--links-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Lora|Mansalva&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-         <!--FontAwesome Kit Code-->
-        <script src="https://kit.fontawesome.com/405c16535a.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="public/assets/css/style.css">
+          <!-- awesome font File -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+          <!-- Responsive -->
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-            <nav class="navbar navbar-expand-lg navbar-light" id="navbar" >
-                    <a class="navbar-brand" href="#"></a>
-                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
-                       </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                           <li class="nav-item active">
-                             <a class="nav-link" href="index.html"> About me <span class="sr-only">(current)</span></a>
-                           </li>
-                           <li class="nav-item">
-                             <a class="nav-link" href="portfolio.html">Portfolio</a>
-                           </li>
-                           <li class="nav-item">
-                             <a class="nav-link" href="contact.html">Contact</a>
-                           </li>
-                     </ul>
-                 </div>
-             </nav>
 
-             
-          <div class= "container box mt-4">
-                 <div class="text-center">
-                        <h1>Elham Poshtiban </h1>
-                 </div>
-                  <div class="row justify-content-around">
-                       <div class="col-sm-3 mt-3">
-                          <img class="img-thumbnail" src="./images/elham.jpg" alt="elham poshtiban">
-                       </div>
-                       <div class="col-sm-6 mt-4">
-                             <h2>About me</h2>
-                                <p>
-                                    My name is Elham Poshtiban, I am 28 from Tehran, Iran.
-                                     I graduated from Islamic Azad University with a bachelor's degree in Software Engineering.
-                                      I was working as a Commercial Assistant in a big Oil and Gas company in my country before I migrate to USA.
-                                      Currently, I am attending a coding bootcamp through the University of Texas Austin. 
-                                       I am doing my best to become a full stack developer through the completion of this bootcamp and to be ready to launch a new career.
-                                      <br>
-                                    When I am not working on my career, I enjoy watching series 
-                                     (my favorite show is “Friends”), reading book, cooking and spending time with my friends. I also enjoy outdoor activities such as biking and camping. 
-                                    
-                              </p> 
-                      </div>
-                      <div class="col-sm-3 ">
-                       
-                      </div>
-                  </div>    
-             <div class="row 2">
-                    <div class="col-sm-12">
-                      <div class="changing mt-4 ml-3">
-                            <h2>contact info</h2>
-                            <ul>
-                              <li><strong>Email: </strong>
-                                  <a href="mailto:elham.poshtiban@gmail.com">
-                                  <i class="fas fa-envelope-open-text fa-2x media-link"></i>
-                                  </a>
-                              </li>
-                              <li><strong>Github: </strong>
-                                  <a href="https://github.com/elhamposhtiban">
-                                    <i class="fab fa-github-square fa-2x media-link"></i>
-                                  </a>
-                              </li>
-                              <li><strong>Linkedin: </strong>
-                                  <a href="https://www.linkedin.com/in/elham-poshtiban-2a40a4149/">
-                                    <i class="fab fa-linkedin fa-2x media-link"></i>
-                                  </a>
-                              </li>
-                               <li><strong>Resume: </strong>
-                                  <a href="./images/Elham - Resume.docx.pdf">
-                                    <i class="fas fa-file-pdf fa-2x media-link"></i>
-                                  </a>
-                               </li>
-
-                            </ul>
-                          </div>
-                      </div>
-              </div> 
-         </div>
-            
-         <footer class="mt-4">
-            <div class="clearfix"></div>
-            <div class="Footer">
-              <ul>
-                <li><strong>Email : </strong>elham.poshtiban@gmail.com</li>
-                  <li><strong>Tel : </strong>(281) 425-9682</li>
-              </ul>
+                <!-- Navigation -->
+            <div class="navigation">
+              <input type="checkbox" class="navigation__checkbox" id="navi_toggle">
+              <label for="navi_toggle" class="navigation__button">
+                  <span class="navigation__icon">&nbsp;</span>
+              </label>
+              <div class="navigation__background"></div>
+              <nav class="navigation__nav">
+                  <ul class="navigation__list">
+                      <li class="navigation__item"><a href="index.html" class="navigation__link">home</a></li>
+                      <li class="navigation__item"><a href="contact.html" class="navigation__link">contact</a></li>
+                      <li class="navigation__item"><a href="portfolio.html" class="navigation__link">portfolio</a></li>
+                  </ul>
+              </nav>
             </div>
-        </footer>
+             <header class="header">
+              <div class="text-box">
+                  <h1 class="heading-primary">
+                      <span class="heading-primary-main">welcome to my portfolio</span>
+                      <span class="heading-primary-sub">here you can know me better as a full stack developer </span>
+                  </h1>
+                  <a href="#about-me" class="btn btn--white"> let's start</a>
+              </div>
+            </header>
+            <!-- page starting from here -->
+            <main>
+                <section class="section-stories" id="about-me">
+                    <div class="u-center-text u-margin-bottom-big">
+                        <h2 class="heading-secondary">
+                            About Me
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="story">
+                            <figure class="story__shape">
+                                <img src="public/assets/images/elham.jpg" alt="elham poshtiban" class="story__img">
+                            </figure>
+                            <div class="story__text">
+                                <h3 class="heading-tertiary  u-margin-bottom-small"> Elham Poshtiban</h3>
+                            </div>
+                            <p>  My name is Elham Poshtiban, I am 28 from Tehran, Iran.
+                              I graduated from Islamic Azad University with a bachelor's degree in Software Engineering.
+                               I was working as a Commercial Assistant in a big Oil and Gas company in my country before I migrate to USA.
+                               Currently, I am attending a coding bootcamp through the University of Texas Austin. 
+                                I am doing my best to become a full stack developer through the completion of this bootcamp and to be ready to launch a new career.
+                               <br>
+                             When I am not working on my career, I enjoy watching series 
+                              (my favorite show is “Friends”), reading book, cooking and spending time with my friends. I also enjoy outdoor activities such as biking and camping. 
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+           <!-- footer -->
+        <footer class="footer">
+              <div class="row">
+                  <div class="col-1-of-3">
+                      <div class="footer__navigation">
+                          <ul class="footer__list">
+                              <li class="footer__item"> <a href="https://github.com/elhamposhtiban" class="footer__link"><i class="fab fa-github-square fa-3x media-link"></i></a> </li>
+                              <li class="footer__item"> <a href="https://www.linkedin.com/in/elham-poshtiban-2a40a4149/" class="footer__link"><i class="fab fa-linkedin fa-3x media-link"></i></a> </li>
+                              <li class="footer__item"> <a href="./public/assets/images/Elham - Resume.docx.pdf" class="footer__link"><i class="fas fa-file-pdf fa-3x media-link"></i></a> </li>
+                              <li class="footer__item"> <a href="mailto:elham.poshtiban@gmail.com" class="footer__link"><i class="fas fa-envelope-open-text fa-3x media-link"></i></a> </li>
+                              <li class="footer__item"> <a href="tel:2814259682" class="footer__link"><i class="fas fa-phone-square fa-3x"></i></a> </li>
+                          </ul> 
+                      </div>
+                  </div>
+                  <div class="col-2-of-3">
+                      <p class="footer__copyright">
+                           copyright&copy;by Elham Poshtiban. you are 100% allowed to use this webpage for both personal and commercial use but NOT to claim it as your own design.A credit to author, Elham poshtiban, is of course highly appreciated!
+                      </p>
+                  </div>
+              </div>
+          </footer>
+            
         <!--Java Script files-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   </body>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+           <!--FontAwesome Kit Code-->
+        <script src="https://kit.fontawesome.com/405c16535a.js" crossorigin="anonymous"></script>
+      </body>
 </html>
