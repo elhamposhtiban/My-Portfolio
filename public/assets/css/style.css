@@ -55,7 +55,7 @@ body {
     font-weight: 400;
     letter-spacing: 2rem;
     animation-name: moveInLeft;
-    animation-duration: 2s;
+    animation-duration: .7s;
     animation-timing-function: ease-out;
     margin-bottom: 2rem;
     /* animation-delay: 2s; */
@@ -65,7 +65,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.3rem;
-    animation: moveInRight 2s ease-out;
+    animation: moveInRight .7s ease-out;
     margin-bottom: 6rem; }
 
 .text-box {
@@ -216,6 +216,8 @@ body {
       background-image: linear-gradient(to right bottom, #E99ABB, #841041), url(../images/article.jpg); }
     .card__picture--11 {
       background-image: linear-gradient(to right bottom, #E99ABB, #841041), url(../images/10.jpg); }
+    .card__picture--12 {
+      background-image: linear-gradient(to right bottom, #E99ABB, #841041), url(../images/2.jpg); }
   .card__heading {
     font-size: 2.5rem;
     font-weight: 300;
@@ -508,7 +510,7 @@ body {
   height: 60rem;
   width: 100%;
   margin-top: -9rem;
-  animation: moveInRight 2s ease-out; }
+  animation: moveInRight 1s ease-out; }
   .contact__form {
     width: 50%;
     padding: 6rem; }

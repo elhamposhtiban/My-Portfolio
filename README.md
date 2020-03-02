@@ -4,6 +4,13 @@ this is my portfolio i've been updating this every month by adding more projects
 ## link of repository :
 [Portfolio Link](https://elhamposhtiban.github.io/Bootstrap-Portfolio/)
 
-### Tech Stack  
-•	What languages is it written with? HTML & Css and Sass.  
-•	What libraries are used? Bootstrap, Google Fonts. 
+
+ ## Built With
+ 
+* HTML & CSS - UI
+* Bootstrap - CSS FrameWork
+* Sass
+
+ ## Author
+
+ ELham Poshtiban
