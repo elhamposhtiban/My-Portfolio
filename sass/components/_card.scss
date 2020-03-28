@@ -95,6 +95,16 @@
             background-image: linear-gradient(to right bottom, $color-pink-light-1 , $color-pink-medium ),
             url(../images/2.jpg);
          }
+
+         &--13{
+            background-image: linear-gradient(to right bottom, $color-pink-light-1 , $color-pink-medium ),
+            url(../images/boogle.jpg);
+         }
+
+         &--14{
+            background-image: linear-gradient(to right bottom, $color-pink-light-1 , $color-pink-medium ),
+            url(../images/something.jpg);
+         }
     }
 
     &__heading {
@@ -104,8 +114,8 @@
         text-align: right;
         color:$color-white;
         position:absolute;
-        top:20rem;
-        right:2rem;
+        top: 18rem;
+        right: 2rem;
         width: 80%;
     }
 
