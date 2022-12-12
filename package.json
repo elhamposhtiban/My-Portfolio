@@ -15,7 +15,7 @@
   "homepage": "https://github.com/elhamposhtiban/Bootstrap-Portfolio#readme",
   "devDependencies": {},
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^3.1.0",
     "node-sass": "^4.13.1"
   },
